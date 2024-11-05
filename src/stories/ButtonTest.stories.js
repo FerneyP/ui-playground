@@ -1,5 +1,5 @@
 // Button.stories.js
-import Button from './ButtonTest.vue';
+import Button from '../components/ButtonTest.vue';
 
 export default {
   title: 'Components/Button',
