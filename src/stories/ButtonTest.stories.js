@@ -1,23 +1,62 @@
-import CustomButton from "../components/ButtonTest.vue";
+// Button.stories.js
+import Button from './ButtonTest.vue';
 
 export default {
-  title: "Components/CustomButton",
-  component: CustomButton,
+  title: 'Components/Button',
+  component: Button,
   argTypes: {
-    label: { control: "text" },
-    onClick: { action: "clicked" },
+    label: { control: 'text' },
+    variant: { control: 'select', options: ['primary', 'secondary', 'danger', 'success'] },
+    size: { control: 'select', options: ['small', 'medium', 'large'] },
+    disabled: { control: 'boolean' },
+    onClick: { action: 'clicked' },
   },
 };
 
 const Template = (args) => ({
-  components: { CustomButton },
+  components: { Button },
   setup() {
     return { args };
   },
-  template: '<CustomButton v-bind="args">{{ args.label }}</CustomButton>',
+  template: '<Button v-bind="args" />',
 });
 
-export const Default = Template.bind({});
-Default.args = {
-  label: "Click Me",
+export const Primary = Template.bind({});
+Primary.args = {
+  label: 'Primary Button',
+  variant: 'primary',
+  size: 'medium',
+  disabled: false,
+};
+
+export const Secondary = Template.bind({});
+Secondary.args = {
+  label: 'Secondary Button',
+  variant: 'secondary',
+  size: 'medium',
+  disabled: false,
+};
+
+export const Danger = Template.bind({});
+Danger.args = {
+  label: 'Danger Button',
+  variant: 'danger',
+  size: 'medium',
+  disabled: false,
+};
+
+export const Success = Template.bind({});
+Success.args = {
+  label: 'Success Button',
+  variant: 'success',
+  size: 'medium',
+  disabled: false,
+};
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  label: 'Disabled Button',
+  variant: 'primary',
+  size: 'medium',
+  disabled: true,
 };
