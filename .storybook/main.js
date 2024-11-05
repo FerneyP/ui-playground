@@ -6,7 +6,6 @@ const config = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "@storybook/addon-actions",
   ],
   framework: {
     name: "@storybook/vue3-vite",
@@ -14,3 +13,7 @@ const config = {
   },
 };
 export default config;
+
+module.exports = {
+  addons: ['@storybook/addon-actions'],
+};
