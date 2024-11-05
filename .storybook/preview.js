@@ -10,6 +10,25 @@ const preview = {
         date: /Date$/i,
       },
     },
+    docs: {
+      source: {
+        type: 'dynamic', // Muestra el código fuente dinámicamente
+      },
+    },
+  },
+  globalTypes: {
+    showCode: {
+      name: 'Show Code',
+      description: 'Toggle to show or hide code',
+      defaultValue: true,
+      toolbar: {
+        icon: 'code',
+        items: [
+          { value: true, title: 'Show Code' },
+          { value: false, title: 'Hide Code' },
+        ],
+      },
+    },
   },
 };
 

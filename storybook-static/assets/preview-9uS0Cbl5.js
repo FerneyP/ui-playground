@@ -1,0 +1,1 @@
+const o={parameters:{controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},docs:{source:{state:e=>e.globals.showCode?"open":"closed"}}},globalTypes:{showCode:{name:"Show Code",description:"Toggle to show or hide code",defaultValue:!0,toolbar:{icon:"code",items:[{value:!0,title:"Show Code"},{value:!1,title:"Hide Code"}]}}}};export{o as default};

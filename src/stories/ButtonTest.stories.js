@@ -2,7 +2,7 @@
 import Button from '../components/ButtonTest.vue';
 
 export default {
-  title: 'Components/Button',
+  title: 'Components/ButtonTest',
   component: Button,
   argTypes: {
     label: { control: 'text' },
@@ -11,6 +11,7 @@ export default {
     disabled: { control: 'boolean' },
     onClick: { action: 'clicked' },
   },
+  tags: ['autodocs'],
 };
 
 const Template = (args) => ({
@@ -21,6 +22,7 @@ const Template = (args) => ({
   template: '<Button v-bind="args" />',
 });
 
+// Definición de las variaciones del botón
 export const Primary = Template.bind({});
 Primary.args = {
   label: 'Primary Button',
