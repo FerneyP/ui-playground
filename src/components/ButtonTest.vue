@@ -51,7 +51,7 @@
     transition: background-color 0.3s;
   }
   .custom-button.primary {
-    background-color: #7f56d9;
+    background-color: var(--colorBrand600);
     color: white;
   }
   .custom-button.secondary {
