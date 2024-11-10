@@ -1,3 +1,669 @@
 
 :root {
+    --gradientGradientSkeuemorphicGradientBorder: linear-gradient(
+          180deg,
+          #ffffff1f 0%,   
+          #ffffff00 100%  
+        )
+        ;    
+    --gradientGradientGray60050090deg_: linear-gradient(
+          90deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray70060045deg_: linear-gradient(
+          45deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray80060045deg_: linear-gradient(
+          45deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray80060090deg_: linear-gradient(
+          90deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray800700265deg_: linear-gradient(
+          27deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray90060045deg_: linear-gradient(
+          45deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray90070045deg_: linear-gradient(
+          45deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray50White180deg_: linear-gradient(
+          180deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray100White180deg_: linear-gradient(
+          180deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray10025180deg_: linear-gradient(
+          180deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray10050180deg_: linear-gradient(
+          180deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray20025180deg_: linear-gradient(
+          180deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray20050180deg_: linear-gradient(
+          180deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientGray200100180deg_: linear-gradient(
+          180deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientBrand60050090deg_: linear-gradient(
+          90deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientBrand70060045deg_: linear-gradient(
+          45deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientBrand80060045deg_: linear-gradient(
+          45deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientBrand80060090deg_: linear-gradient(
+          90deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientBrand800700265deg_: linear-gradient(
+          27deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientBrand90060045deg_: linear-gradient(
+          45deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientBrand90070045deg_: linear-gradient(
+          45deg,
+          #ffffff 0%,   
+          #ffffff 100%  
+        )
+        ;    
+    --gradientGradientLinear10: linear-gradient(
+          0deg,
+          #cfc7f8 0%,   
+          #ebbba7 100%  
+        )
+        ;    
+    --gradientGradientLinear11: linear-gradient(
+          135deg,
+          #fccb90 0%,   
+          #d57eeb 100%  
+        )
+        ;    
+    --gradientGradientLinear12: linear-gradient(
+          45deg,
+          #7b6ae0 0%,   
+          #ffbb89 100%  
+        )
+        ;    
+    --gradientGradientLinear13: linear-gradient(
+          135deg,
+          #e0c3fc 0%,   
+          #8ec5fc 100%  
+        )
+        ;    
+    --gradientGradientLinear14: linear-gradient(
+          0deg,
+          #fed6e3 0%,   
+          #a8edea 100%  
+        )
+        ;    
+    --gradientGradientLinear15: linear-gradient(
+          135deg,
+          #f5f7fa 0%,   
+          #c3cfe2 100%  
+        )
+        ;    
+    --gradientGradientLinear16: linear-gradient(
+          45deg,
+          #dfd1c5 0%,   
+          #fff6eb 100%  
+        )
+        ;    
+    --gradientGradientLinear17: linear-gradient(
+          135deg,
+          #fff6b7 0%,   
+          #fb758a 100%  
+        )
+        ;    
+    --gradientGradientLinear18: linear-gradient(
+          45deg,
+          #ff7ec7 0%,   
+          #ffed46 100%  
+        )
+        ;    
+    --gradientGradientLinear19: linear-gradient(
+          0deg,
+          #feafa8 0%,   
+          #f5efef 100%  
+        )
+        ;    
+    --gradientGradientLinear20: linear-gradient(
+          45deg,
+          #e9defa 0%,   
+          #fff6eb 100%  
+        )
+        ;    
+    --gradientGradientLinear21: linear-gradient(
+          0deg,
+          #fff1eb 0%,   
+          #ace0f9 100%  
+        )
+        ;    
+    --gradientGradientLinear22: linear-gradient(
+          0deg,
+          #c1dfc4 0%,   
+          #deecdd 100%  
+        )
+        ;    
+    --gradientGradientLinear24: linear-gradient(
+          0deg,
+          #accbee 0%,   
+          #e7f0fd 100%  
+        )
+        ;    
+    --gradientGradientLinear25: linear-gradient(
+          0deg,
+          #84fab0 0%,   
+          #accbee 100%  
+        )
+        ;    
+    --gradientGradientLinear26: linear-gradient(
+          45deg,
+          #39a0ff 0%,   
+          #8fff85 100%  
+        )
+        ;    
+    --gradientGradientLinear27: linear-gradient(
+          270deg,
+          #74ebd5 0%,   
+          #9face6 100%  
+        )
+        ;    
+    --gradientGradientLinear29: linear-gradient(
+          0deg,
+          #9890e3 0%,   
+          #b1f4cf 100%  
+        )
+        ;    
+    --gradientGradientLinear30: linear-gradient(
+          45deg,
+          #7cdada 0%,   
+          #f697aa 100%  
+        )
+        ;    
+    --gradientGradientLinear31: linear-gradient(
+          45deg,
+          #b1ff96 0%,   
+          #ffadf7 100%  
+        )
+        ;    
+    --gradientGradientLinear32: linear-gradient(
+          0deg,
+          #96fbc4 0%,   
+          #f9f586 100%  
+        )
+        ;    
+    --gradientGradientLinear33: linear-gradient(
+          45deg,
+          #4def8e 0%,   
+          #ffeb3a 100%  
+        )
+        ;    
+    --gradientGradientLinear34: linear-gradient(
+          135deg,
+          #f0ff00 0%,   
+          #58cffb 100%  
+        )
+        ;    
+    --gradientGradientLinear35: linear-gradient(
+          0deg,
+          #d1fdff 0%,   
+          #fddb92 100%  
+        )
+        ;    
+    --gradientGradientLinear36: linear-gradient(
+          0deg,
+          #ebc0fd 0%,   
+          #d9ded8 100%  
+        )
+        ;    
+    --gradientGradientLinear37: linear-gradient(
+          45deg,
+          #ffa4f6 0%,   
+          #b7dcff 100%  
+        )
+        ;    
+    --gradientGradientLinear38: linear-gradient(
+          0deg,
+          #cd9cf2 0%,   
+          #f6f3ff 100%  
+        )
+        ;    
+    --gradientGradientLinear39: linear-gradient(
+          315deg,
+          #f5c8f5 0%,   
+          #daddfa 83.9%  
+        )
+        ;    
+    --gradientGradientLinear40: linear-gradient(
+          0deg,
+          #e6dee9 0%,   
+          #bdc2e8 100%  
+        )
+        ;    
+    --gradientGradientLinear41: linear-gradient(
+          0deg,
+          #6a85b6 0%,   
+          #bac8e0 100%  
+        )
+        ;    
+    --gradientGradientLinear42: linear-gradient(
+          45deg,
+          #8b8b8b 0%,   
+          #eaeaea 100%  
+        )
+        ;    
+    --gradientGradientLinear43: linear-gradient(
+          135deg,
+          #e2b0ff 0%,   
+          #9f44d3 100%  
+        )
+        ;    
+    --gradientGradientLinear44: linear-gradient(
+          135deg,
+          #ce9ffc 0%,   
+          #7367f0 100%  
+        )
+        ;    
+    --gradientGradientLinear45: linear-gradient(
+          135deg,
+          #72edf2 0%,   
+          #5151e5 100%  
+        )
+        ;    
+    --gradientGradientLinear46: linear-gradient(
+          0deg,
+          #a3bded 0%,   
+          #6991c7 100%  
+        )
+        ;    
+    --gradientGradientLinear47: linear-gradient(
+          0deg,
+          #fbc8d4 0%,   
+          #9795f0 100%  
+        )
+        ;    
+    --gradientGradientLinear48: linear-gradient(
+          0deg,
+          #a7a6cb 0%,   
+          #8989ba 100%  
+        )
+        ;    
+    --gradientGradientLinear49: linear-gradient(
+          0deg,
+          #d9afd9 0%,   
+          #97d9e1 100%  
+        )
+        ;    
+    --gradientGradientLinear50: linear-gradient(
+          135deg,
+          #81ffef 0%,   
+          #f067b4 100%  
+        )
+        ;    
+    --gradientGradientLinear51: linear-gradient(
+          135deg,
+          #dcb0ed 0%,   
+          #9999cc 100%  
+        )
+        ;    
+    --gradientGradientLinear52: linear-gradient(
+          135deg,
+          #fff5c3 0%,   
+          #9452a5 100%  
+        )
+        ;    
+    --gradientGradientLinear53: linear-gradient(
+          135deg,
+          #f1ca74 0%,   
+          #a64db6 100%  
+        )
+        ;    
+    --gradientGradientLinear54: linear-gradient(
+          45deg,
+          #4d6ad0 0%,   
+          #ff9d7e 100%  
+        )
+        ;    
+    --gradientGradientLinear55: linear-gradient(
+          135deg,
+          #ffcf71 0%,   
+          #2376dd 100%  
+        )
+        ;    
+    --gradientGradientLinear56: linear-gradient(
+          135deg,
+          #e8d07a 0%,   
+          #5312d6 100%  
+        )
+        ;    
+    --gradientGradientLinear57: linear-gradient(
+          180deg,
+          #bfd9fe 0%,   
+          #df89b5 100%  
+        )
+        ;    
+    --gradientGradientLinear58: linear-gradient(
+          0deg,
+          #fa71cd 0%,   
+          #c471f5 100%  
+        )
+        ;    
+    --gradientGradientLinear59: linear-gradient(
+          135deg,
+          #43cbff 0%,   
+          #9708cc 100%  
+        )
+        ;    
+    --gradientGradientLinear60: linear-gradient(
+          180deg,
+          #7579ff 0%,   
+          #b224ef 100%  
+        )
+        ;    
+    --gradientGradientLinear61: linear-gradient(
+          45deg,
+          #ad00fe 0%,   
+          #00e0ee 100%  
+        )
+        ;    
+    --gradientGradientLinear62: linear-gradient(
+          135deg,
+          #89f7fe 0%,   
+          #66a6ff 100%  
+        )
+        ;    
+    --gradientGradientLinear63: linear-gradient(
+          0deg,
+          #009efd 0%,   
+          #2af598 100%  
+        )
+        ;    
+    --gradientGradientLinear64: linear-gradient(
+          45deg,
+          #ffb800 0%,   
+          #fff500 100%  
+        )
+        ;    
+    --gradientGradientLinear65: linear-gradient(
+          135deg,
+          #ffa8a8 0%,   
+          #fcff00 100%  
+        )
+        ;    
+    --gradientGradientLinear66: linear-gradient(
+          45deg,
+          #ff7a00 0%,   
+          #ffd439 100%  
+        )
+        ;    
+    --gradientGradientLinear67: linear-gradient(
+          135deg,
+          #ffd3a5 0%,   
+          #fd6585 100%  
+        )
+        ;    
+    --gradientGradientLinear68: linear-gradient(
+          180deg,
+          #f9d423 0%,   
+          #e14fad 100%  
+        )
+        ;    
+    --gradientGradientLinear69: linear-gradient(
+          135deg,
+          #f74fac 0%,   
+          #fcb24f 100%  
+        )
+        ;    
+    --gradientGradientLinear70: linear-gradient(
+          135deg,
+          #f49062 0%,   
+          #fd371f 100%  
+        )
+        ;    
+    --gradientGradientLinear71: linear-gradient(
+          45deg,
+          #ff6c6c 0%,   
+          #dd7bff 100%  
+        )
+        ;    
+    --gradientGradientLinear72: linear-gradient(
+          135deg,
+          #f97794 0%,   
+          #623aa2 100%  
+        )
+        ;    
+    --gradientGradientLinear73: linear-gradient(
+          180deg,
+          #c569cf 0%,   
+          #ee609c 100%  
+        )
+        ;    
+    --gradientGradientLinear74: linear-gradient(
+          0deg,
+          #c7eafd 0%,   
+          #e8198b 100%  
+        )
+        ;    
+    --gradientGradientLinear75: linear-gradient(
+          135deg,
+          #f093fb 0%,   
+          #f5576c 100%  
+        )
+        ;    
+    --gradientGradientLinear76: linear-gradient(
+          135deg,
+          #f6ceec 0%,   
+          #d939cd 100%  
+        )
+        ;    
+    --gradientGradientLinear77: linear-gradient(
+          135deg,
+          #ee9ae5 0%,   
+          #5961f9 100%  
+        )
+        ;    
+    --gradientGradientLinear78: linear-gradient(
+          270deg,
+          #6a11cb 0%,   
+          #2575fc 100%  
+        )
+        ;    
+    --gradientGradientLinear79: linear-gradient(
+          45deg,
+          #0017e4 0%,   
+          #3793ff 100%  
+        )
+        ;    
+    --gradientGradientLinear80: linear-gradient(
+          0deg,
+          #00c6fb 0%,   
+          #005bea 100%  
+        )
+        ;    
+    --gradientGradientLinear81: linear-gradient(
+          45deg,
+          #4b73ff 0%,   
+          #7cf7ff 100%  
+        )
+        ;    
+    --gradientGradientLinear82: linear-gradient(
+          135deg,
+          #5efce8 0%,   
+          #736efe 100%  
+        )
+        ;    
+    --gradientGradientLinear83: linear-gradient(
+          0deg,
+          #7028e4 0%,   
+          #e5b2ca 100%  
+        )
+        ;    
+    --gradientGradientLinear84: linear-gradient(
+          90deg,
+          #7873f5 0%,   
+          #ec77ab 100%  
+        )
+        ;    
+    --gradientGradientLinear85: linear-gradient(
+          135deg,
+          #b01eff 0%,   
+          #e1467c 100%  
+        )
+        ;    
+    --gradientGradientLinear86: linear-gradient(
+          45deg,
+          #d079ee 0%,   
+          #8a88fb 100%  
+        )
+        ;    
+    --gradientGradientLinear87: linear-gradient(
+          135deg,
+          #c99fff 0%,   
+          #981ed2 100%  
+        )
+        ;    
+    --gradientGradientLinear88: linear-gradient(
+          0deg,
+          #9b23ea 0%,   
+          #5f72bd 100%  
+        )
+        ;    
+    --gradientGradientLinear89: linear-gradient(
+          135deg,
+          #b39fff 0%,   
+          #6a1ed2 100%  
+        )
+        ;    
+    --gradientGradientLinear90: linear-gradient(
+          45deg,
+          #4300b1 0%,   
+          #a531dc 100%  
+        )
+        ;    
+    --gradientGradientLinear91: linear-gradient(
+          315deg,
+          #764ba2 0%,   
+          #667eea 100%  
+        )
+        ;    
+    --gradientGradientLinear01: linear-gradient(
+          180deg,
+          #a5c0ee 0%,   
+          #fbc5ec 100%  
+        )
+        ;    
+    --gradientGradientLinear02: linear-gradient(
+          180deg,
+          #fbc2eb 0%,   
+          #a18cd1 100%  
+        )
+        ;    
+    --gradientGradientLinear03: linear-gradient(
+          180deg,
+          #ffd1ff 0%,   
+          #fad0c4 100%  
+        )
+        ;    
+    --gradientGradientLinear04: linear-gradient(
+          225deg,
+          #fad0c4 0%,   
+          #ff9a9e 100%  
+        )
+        ;    
+    --gradientGradientLinear05: linear-gradient(
+          270deg,
+          #fcb69f 0%,   
+          #ffecd2 100%  
+        )
+        ;    
+    --gradientGradientLinear06: linear-gradient(
+          180deg,
+          #fecfef 0%,   
+          #ff989c 100%  
+        )
+        ;    
+    --gradientGradientLinear07: linear-gradient(
+          45deg,
+          #ff9de4 0%,   
+          #ffeaf6 100%  
+        )
+        ;    
+    --gradientGradientLinear08: linear-gradient(
+          180deg,
+          #e6dee9 0%,   
+          #fdcaf1 100%  
+        )
+        ;    
+    --gradientGradientLinear09: linear-gradient(
+          45deg,
+          #a6c0fe 0%,   
+          #ffeaf6 100%  
+        )
+        ;    
 }
