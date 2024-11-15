@@ -1,0 +1,1966 @@
+{
+  "Avatar user square": {
+    "Candice Wu (color background)": {
+      "$type": "color",
+      "$value": "#D9D0E6"
+    },
+    "Demi Wilkinson (color background)": {
+      "$type": "color",
+      "$value": "#DADCD6"
+    },
+    "Drew Cano (color background)": {
+      "$type": "color",
+      "$value": "#D9E5CC"
+    },
+    "Lana Steiner (color background)": {
+      "$type": "color",
+      "$value": "#D7E3E8"
+    },
+    "Natali Craig (color background)": {
+      "$type": "color",
+      "$value": "#E9DCBB"
+    },
+    "Orlando Diggs (color background)": {
+      "$type": "color",
+      "$value": "#E5DDCE"
+    },
+    "Phoenix Baker (color background)": {
+      "$type": "color",
+      "$value": "#D6CFB7"
+    }
+  },
+  "Background": {
+    "$type": "color",
+    "$value": "#070312"
+  },
+  "Base": {
+    "Black": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "White": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$description": "#ffffff\n"
+    }
+  },
+  "Black": {
+    "07": {
+      "$type": "color",
+      "$value": "#000000A8",
+      "$description": "Secondary Text"
+    },
+    "08": {
+      "$type": "color",
+      "$value": "#000000E0",
+      "$description": "Primary Text"
+    }
+  },
+  "Brand": {
+    "TD": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#E44232",
+        "$description": "Red, Todoist"
+      },
+      "Secondary Light": {
+        "$type": "color",
+        "$value": "#FFF9F3",
+        "$description": "Beige, Todoist"
+      }
+    }
+  },
+  "Display lg": {
+    "Medium": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "48px",
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "lineHeight": 1.25,
+        "letterSpacing": "-1px"
+      }
+    }
+  },
+  "Display sm": {
+    "Semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "30px",
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "lineHeight": 1.27,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "Display xl": {
+    "Medium": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "60px",
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "lineHeight": 1.2,
+        "letterSpacing": "-1.2px"
+      }
+    },
+    "Semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "60px",
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "lineHeight": 1.2,
+        "letterSpacing": "-1.2px"
+      }
+    }
+  },
+  "Display xs": {
+    "Semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "24px",
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "lineHeight": 1.33,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "Error": {
+    "25": {
+      "$type": "color",
+      "$value": "#FFFBFA"
+    }
+  },
+  "Focus rings": {
+    "focus-ring": {
+      "$type": "shadow",
+      "$value": {
+        "blur": "0px",
+        "color": "#9E77ED",
+        "spread": "4px",
+        "offsetX": "0px",
+        "offsetY": "0px"
+      },
+      "$description": "Used for focus states in components. For example toggles and checkboxes."
+    },
+    "focus-ring-error": {
+      "$type": "shadow",
+      "$value": {
+        "blur": "0px",
+        "color": "#F04438",
+        "spread": "4px",
+        "offsetX": "0px",
+        "offsetY": "0px"
+      },
+      "$description": "Used for destructive or error focus states in components. For example, destructive button links."
+    },
+    "focus-ring-error-shadow-xs-skeuomorphic": {
+      "$type": "shadow",
+      "$value": {
+        "blur": "0px",
+        "color": "#F04438",
+        "spread": "4px",
+        "offsetX": "0px",
+        "offsetY": "0px"
+      },
+      "$description": "Used for focus states in destructive or error components that also require a shadow and a subtle skeuomorphic effect. For example, destructive buttons.\n\nThis can be replaced with focus-ring-error-shadow-xs if you prefer a flat style."
+    },
+    "focus-ring-shadow-xs": {
+      "$type": "shadow",
+      "$value": {
+        "blur": "0px",
+        "color": "#9E77ED",
+        "spread": "4px",
+        "offsetX": "0px",
+        "offsetY": "0px"
+      },
+      "$description": "Used for focus states in components that also require a shadow. For example, buttons and tabs."
+    },
+    "focus-ring-shadow-xs-skeuomorphic": {
+      "$type": "shadow",
+      "$value": {
+        "blur": "0px",
+        "color": "#9E77ED",
+        "spread": "4px",
+        "offsetX": "0px",
+        "offsetY": "0px"
+      },
+      "$description": "Used for focus states in components that also require a shadow and a subtle skeuomorphic effect. For example, buttons and tabs.\n\nThis can be replaced with focus-ring-shadow-xs if you prefer a flat style."
+    }
+  },
+  "Gradient": {
+    "Brand": {
+      "600 -> 500 (90deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#7F56D9",
+            "position": 0
+          },
+          {
+            "color": "#9E77ED",
+            "position": 1
+          }
+        ]
+      },
+      "700 -> 600 (45deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#6941C6",
+            "position": 0
+          },
+          {
+            "color": "#7F56D9",
+            "position": 1
+          }
+        ]
+      },
+      "800 -> 600 (45deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#53389E",
+            "position": 0
+          },
+          {
+            "color": "#7F56D9",
+            "position": 1
+          }
+        ]
+      },
+      "800 -> 600 (90deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#53389E",
+            "position": 0
+          },
+          {
+            "color": "#7F56D9",
+            "position": 1
+          }
+        ]
+      },
+      "800 -> 700 (26": {
+        "5deg)": {
+          "$type": "gradient",
+          "$value": [
+            {
+              "color": "#53389E",
+              "position": 0
+            },
+            {
+              "color": "#6941C6",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "900 -> 600 (45deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#42307D",
+            "position": 0
+          },
+          {
+            "color": "#7F56D9",
+            "position": 1
+          }
+        ]
+      },
+      "900 -> 700 (45deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#42307D",
+            "position": 0
+          },
+          {
+            "color": "#6941C6",
+            "position": 1
+          }
+        ]
+      }
+    },
+    "Gray": {
+      "100 -> 25 (180deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FDFDFD",
+            "position": 0
+          },
+          {
+            "color": "#F5F5F5",
+            "position": 1
+          }
+        ]
+      },
+      "100 -> 50 (180deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FAFAFA",
+            "position": 0
+          },
+          {
+            "color": "#F5F5F5",
+            "position": 1
+          }
+        ]
+      },
+      "100 -> white (180deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F5F5F5",
+            "position": 1
+          }
+        ]
+      },
+      "200 -> 100 (180deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F5F5F5",
+            "position": 0
+          },
+          {
+            "color": "#E9EAEB",
+            "position": 1
+          }
+        ]
+      },
+      "200 -> 25 (180deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FDFDFD",
+            "position": 0
+          },
+          {
+            "color": "#E9EAEB",
+            "position": 1
+          }
+        ]
+      },
+      "200 -> 50 (180deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FAFAFA",
+            "position": 0
+          },
+          {
+            "color": "#E9EAEB",
+            "position": 1
+          }
+        ]
+      },
+      "50 -> white (180deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#FAFAFA",
+            "position": 1
+          }
+        ]
+      },
+      "600 -> 500 (90deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#535862",
+            "position": 0
+          },
+          {
+            "color": "#717680",
+            "position": 1
+          }
+        ]
+      },
+      "700 -> 600 (45deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#414651",
+            "position": 0
+          },
+          {
+            "color": "#535862",
+            "position": 1
+          }
+        ]
+      },
+      "800 -> 600 (45deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#252B37",
+            "position": 0
+          },
+          {
+            "color": "#535862",
+            "position": 1
+          }
+        ]
+      },
+      "800 -> 600 (90deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#252B37",
+            "position": 0
+          },
+          {
+            "color": "#535862",
+            "position": 1
+          }
+        ]
+      },
+      "800 -> 700 (26": {
+        "5deg)": {
+          "$type": "gradient",
+          "$value": [
+            {
+              "color": "#414651",
+              "position": 0
+            },
+            {
+              "color": "#414651",
+              "position": 1
+            }
+          ]
+        }
+      },
+      "900 -> 600 (45deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#181D27",
+            "position": 0
+          },
+          {
+            "color": "#535862",
+            "position": 1
+          }
+        ]
+      },
+      "900 -> 700 (45deg)": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#181D27",
+            "position": 0
+          },
+          {
+            "color": "#414651",
+            "position": 1
+          }
+        ]
+      }
+    },
+    "Linear": {
+      "01": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#A5C0EE",
+            "position": 0
+          },
+          {
+            "color": "#FBC5EC",
+            "position": 1
+          }
+        ]
+      },
+      "02": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FBC2EB",
+            "position": 0
+          },
+          {
+            "color": "#A18CD1",
+            "position": 1
+          }
+        ]
+      },
+      "03": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFD1FF",
+            "position": 0
+          },
+          {
+            "color": "#FAD0C4",
+            "position": 1
+          }
+        ]
+      },
+      "04": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FAD0C4",
+            "position": 0
+          },
+          {
+            "color": "#FF9A9E",
+            "position": 1
+          }
+        ]
+      },
+      "05": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FCB69F",
+            "position": 0
+          },
+          {
+            "color": "#FFECD2",
+            "position": 1
+          }
+        ]
+      },
+      "06": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FECFEF",
+            "position": 0
+          },
+          {
+            "color": "#FF989C",
+            "position": 1
+          }
+        ]
+      },
+      "07": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FF9DE4",
+            "position": 0
+          },
+          {
+            "color": "#FFEAF6",
+            "position": 1
+          }
+        ]
+      },
+      "08": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#E6DEE9",
+            "position": 0
+          },
+          {
+            "color": "#FDCAF1",
+            "position": 1
+          }
+        ]
+      },
+      "09": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#A6C0FE",
+            "position": 0
+          },
+          {
+            "color": "#FFEAF6",
+            "position": 1
+          }
+        ]
+      },
+      "10": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#CFC7F8",
+            "position": 0
+          },
+          {
+            "color": "#EBBBA7",
+            "position": 1
+          }
+        ]
+      },
+      "11": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FCCB90",
+            "position": 0
+          },
+          {
+            "color": "#D57EEB",
+            "position": 1
+          }
+        ]
+      },
+      "12": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#7B6AE0",
+            "position": 0
+          },
+          {
+            "color": "#FFBB89",
+            "position": 1
+          }
+        ]
+      },
+      "13": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#E0C3FC",
+            "position": 0
+          },
+          {
+            "color": "#8EC5FC",
+            "position": 1
+          }
+        ]
+      },
+      "14": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FED6E3",
+            "position": 0
+          },
+          {
+            "color": "#A8EDEA",
+            "position": 1
+          }
+        ]
+      },
+      "15": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F5F7FA",
+            "position": 0
+          },
+          {
+            "color": "#C3CFE2",
+            "position": 1
+          }
+        ]
+      },
+      "16": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#DFD1C5",
+            "position": 0
+          },
+          {
+            "color": "#FFF6EB",
+            "position": 1
+          }
+        ]
+      },
+      "17": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFF6B7",
+            "position": 0
+          },
+          {
+            "color": "#FB758A",
+            "position": 1
+          }
+        ]
+      },
+      "18": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FF7EC7",
+            "position": 0
+          },
+          {
+            "color": "#FFED46",
+            "position": 1
+          }
+        ]
+      },
+      "19": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FEAFA8",
+            "position": 0
+          },
+          {
+            "color": "#F5EFEF",
+            "position": 1
+          }
+        ]
+      },
+      "20": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#E9DEFA",
+            "position": 0
+          },
+          {
+            "color": "#FFF6EB",
+            "position": 1
+          }
+        ]
+      },
+      "21": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFF1EB",
+            "position": 0
+          },
+          {
+            "color": "#ACE0F9",
+            "position": 1
+          }
+        ]
+      },
+      "22": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#C1DFC4",
+            "position": 0
+          },
+          {
+            "color": "#DEECDD",
+            "position": 1
+          }
+        ]
+      },
+      "24": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#ACCBEE",
+            "position": 0
+          },
+          {
+            "color": "#E7F0FD",
+            "position": 1
+          }
+        ]
+      },
+      "25": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#84FAB0",
+            "position": 0
+          },
+          {
+            "color": "#ACCBEE",
+            "position": 1
+          }
+        ]
+      },
+      "26": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#39A0FF",
+            "position": 0
+          },
+          {
+            "color": "#8FFF85",
+            "position": 1
+          }
+        ]
+      },
+      "27": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#74EBD5",
+            "position": 0
+          },
+          {
+            "color": "#9FACE6",
+            "position": 1
+          }
+        ]
+      },
+      "29": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#9890E3",
+            "position": 0
+          },
+          {
+            "color": "#B1F4CF",
+            "position": 1
+          }
+        ]
+      },
+      "30": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#7CDADA",
+            "position": 0
+          },
+          {
+            "color": "#F697AA",
+            "position": 1
+          }
+        ]
+      },
+      "31": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#B1FF96",
+            "position": 0
+          },
+          {
+            "color": "#FFADF7",
+            "position": 1
+          }
+        ]
+      },
+      "32": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#96FBC4",
+            "position": 0
+          },
+          {
+            "color": "#F9F586",
+            "position": 1
+          }
+        ]
+      },
+      "33": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#4DEF8E",
+            "position": 0
+          },
+          {
+            "color": "#FFEB3A",
+            "position": 1
+          }
+        ]
+      },
+      "34": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F0FF00",
+            "position": 0
+          },
+          {
+            "color": "#58CFFB",
+            "position": 1
+          }
+        ]
+      },
+      "35": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#D1FDFF",
+            "position": 0
+          },
+          {
+            "color": "#FDDB92",
+            "position": 1
+          }
+        ]
+      },
+      "36": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#EBC0FD",
+            "position": 0
+          },
+          {
+            "color": "#D9DED8",
+            "position": 1
+          }
+        ]
+      },
+      "37": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFA4F6",
+            "position": 0
+          },
+          {
+            "color": "#B7DCFF",
+            "position": 1
+          }
+        ]
+      },
+      "38": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#CD9CF2",
+            "position": 0
+          },
+          {
+            "color": "#F6F3FF",
+            "position": 1
+          }
+        ]
+      },
+      "39": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F5C8F5",
+            "position": 0
+          },
+          {
+            "color": "#DADDFA",
+            "position": 0.8385416865348816
+          }
+        ]
+      },
+      "40": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#E6DEE9",
+            "position": 0
+          },
+          {
+            "color": "#BDC2E8",
+            "position": 1
+          }
+        ]
+      },
+      "41": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#6A85B6",
+            "position": 0
+          },
+          {
+            "color": "#BAC8E0",
+            "position": 1
+          }
+        ]
+      },
+      "42": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#8B8B8B",
+            "position": 0
+          },
+          {
+            "color": "#EAEAEA",
+            "position": 1
+          }
+        ]
+      },
+      "43": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#E2B0FF",
+            "position": 0
+          },
+          {
+            "color": "#9F44D3",
+            "position": 1
+          }
+        ]
+      },
+      "44": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#CE9FFC",
+            "position": 0
+          },
+          {
+            "color": "#7367F0",
+            "position": 1
+          }
+        ]
+      },
+      "45": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#72EDF2",
+            "position": 0
+          },
+          {
+            "color": "#5151E5",
+            "position": 1
+          }
+        ]
+      },
+      "46": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#A3BDED",
+            "position": 0
+          },
+          {
+            "color": "#6991C7",
+            "position": 1
+          }
+        ]
+      },
+      "47": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FBC8D4",
+            "position": 0
+          },
+          {
+            "color": "#9795F0",
+            "position": 1
+          }
+        ]
+      },
+      "48": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#A7A6CB",
+            "position": 0
+          },
+          {
+            "color": "#8989BA",
+            "position": 1
+          }
+        ]
+      },
+      "49": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#D9AFD9",
+            "position": 0
+          },
+          {
+            "color": "#97D9E1",
+            "position": 1
+          }
+        ]
+      },
+      "50": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#81FFEF",
+            "position": 0
+          },
+          {
+            "color": "#F067B4",
+            "position": 1
+          }
+        ]
+      },
+      "51": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#DCB0ED",
+            "position": 0
+          },
+          {
+            "color": "#9999CC",
+            "position": 1
+          }
+        ]
+      },
+      "52": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFF5C3",
+            "position": 0
+          },
+          {
+            "color": "#9452A5",
+            "position": 1
+          }
+        ]
+      },
+      "53": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F1CA74",
+            "position": 0
+          },
+          {
+            "color": "#A64DB6",
+            "position": 1
+          }
+        ]
+      },
+      "54": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#4D6AD0",
+            "position": 0
+          },
+          {
+            "color": "#FF9D7E",
+            "position": 1
+          }
+        ]
+      },
+      "55": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFCF71",
+            "position": 0
+          },
+          {
+            "color": "#2376DD",
+            "position": 1
+          }
+        ]
+      },
+      "56": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#E8D07A",
+            "position": 0
+          },
+          {
+            "color": "#5312D6",
+            "position": 1
+          }
+        ]
+      },
+      "57": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#BFD9FE",
+            "position": 0
+          },
+          {
+            "color": "#DF89B5",
+            "position": 1
+          }
+        ]
+      },
+      "58": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FA71CD",
+            "position": 0
+          },
+          {
+            "color": "#C471F5",
+            "position": 1
+          }
+        ]
+      },
+      "59": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#43CBFF",
+            "position": 0
+          },
+          {
+            "color": "#9708CC",
+            "position": 1
+          }
+        ]
+      },
+      "60": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#7579FF",
+            "position": 0
+          },
+          {
+            "color": "#B224EF",
+            "position": 1
+          }
+        ]
+      },
+      "61": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#AD00FE",
+            "position": 0
+          },
+          {
+            "color": "#00E0EE",
+            "position": 1
+          }
+        ]
+      },
+      "62": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#89F7FE",
+            "position": 0
+          },
+          {
+            "color": "#66A6FF",
+            "position": 1
+          }
+        ]
+      },
+      "63": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#009EFD",
+            "position": 0
+          },
+          {
+            "color": "#2AF598",
+            "position": 1
+          }
+        ]
+      },
+      "64": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFB800",
+            "position": 0
+          },
+          {
+            "color": "#FFF500",
+            "position": 1
+          }
+        ]
+      },
+      "65": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFA8A8",
+            "position": 0
+          },
+          {
+            "color": "#FCFF00",
+            "position": 1
+          }
+        ]
+      },
+      "66": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FF7A00",
+            "position": 0
+          },
+          {
+            "color": "#FFD439",
+            "position": 1
+          }
+        ]
+      },
+      "67": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FFD3A5",
+            "position": 0
+          },
+          {
+            "color": "#FD6585",
+            "position": 1
+          }
+        ]
+      },
+      "68": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F9D423",
+            "position": 0
+          },
+          {
+            "color": "#E14FAD",
+            "position": 1
+          }
+        ]
+      },
+      "69": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F74FAC",
+            "position": 0
+          },
+          {
+            "color": "#FCB24F",
+            "position": 1
+          }
+        ]
+      },
+      "70": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F49062",
+            "position": 0
+          },
+          {
+            "color": "#FD371F",
+            "position": 1
+          }
+        ]
+      },
+      "71": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#FF6C6C",
+            "position": 0
+          },
+          {
+            "color": "#DD7BFF",
+            "position": 1
+          }
+        ]
+      },
+      "72": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F97794",
+            "position": 0
+          },
+          {
+            "color": "#623AA2",
+            "position": 1
+          }
+        ]
+      },
+      "73": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#C569CF",
+            "position": 0
+          },
+          {
+            "color": "#EE609C",
+            "position": 1
+          }
+        ]
+      },
+      "74": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#C7EAFD",
+            "position": 0
+          },
+          {
+            "color": "#E8198B",
+            "position": 1
+          }
+        ]
+      },
+      "75": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F093FB",
+            "position": 0
+          },
+          {
+            "color": "#F5576C",
+            "position": 1
+          }
+        ]
+      },
+      "76": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#F6CEEC",
+            "position": 0
+          },
+          {
+            "color": "#D939CD",
+            "position": 1
+          }
+        ]
+      },
+      "77": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#EE9AE5",
+            "position": 0
+          },
+          {
+            "color": "#5961F9",
+            "position": 1
+          }
+        ]
+      },
+      "78": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#6A11CB",
+            "position": 0
+          },
+          {
+            "color": "#2575FC",
+            "position": 1
+          }
+        ]
+      },
+      "79": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#0017E4",
+            "position": 0
+          },
+          {
+            "color": "#3793FF",
+            "position": 1
+          }
+        ]
+      },
+      "80": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#00C6FB",
+            "position": 0
+          },
+          {
+            "color": "#005BEA",
+            "position": 1
+          }
+        ]
+      },
+      "81": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#4B73FF",
+            "position": 0
+          },
+          {
+            "color": "#7CF7FF",
+            "position": 1
+          }
+        ]
+      },
+      "82": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#5EFCE8",
+            "position": 0
+          },
+          {
+            "color": "#736EFE",
+            "position": 1
+          }
+        ]
+      },
+      "83": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#7028E4",
+            "position": 0
+          },
+          {
+            "color": "#E5B2CA",
+            "position": 1
+          }
+        ]
+      },
+      "84": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#7873F5",
+            "position": 0
+          },
+          {
+            "color": "#EC77AB",
+            "position": 1
+          }
+        ]
+      },
+      "85": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#B01EFF",
+            "position": 0
+          },
+          {
+            "color": "#E1467C",
+            "position": 1
+          }
+        ]
+      },
+      "86": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#D079EE",
+            "position": 0
+          },
+          {
+            "color": "#8A88FB",
+            "position": 1
+          }
+        ]
+      },
+      "87": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#C99FFF",
+            "position": 0
+          },
+          {
+            "color": "#981ED2",
+            "position": 1
+          }
+        ]
+      },
+      "88": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#9B23EA",
+            "position": 0
+          },
+          {
+            "color": "#5F72BD",
+            "position": 1
+          }
+        ]
+      },
+      "89": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#B39FFF",
+            "position": 0
+          },
+          {
+            "color": "#6A1ED2",
+            "position": 1
+          }
+        ]
+      },
+      "90": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#4300B1",
+            "position": 0
+          },
+          {
+            "color": "#A531DC",
+            "position": 1
+          }
+        ]
+      },
+      "91": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#764BA2",
+            "position": 0
+          },
+          {
+            "color": "#667EEA",
+            "position": 1
+          }
+        ]
+      }
+    },
+    "skeuemorphic-gradient-border": {
+      "$type": "gradient",
+      "$value": [
+        {
+          "color": "#FFFFFF1F",
+          "position": 0
+        },
+        {
+          "color": "#FFFFFF00",
+          "position": 1
+        }
+      ],
+      "$description": "Used to create a subtle skeuemorphic effect in components such as primary buttons. This can be removed or replaced with a 1px stroke if you prefer a flat style."
+    }
+  },
+  "Gray neutral": {
+    "100": {
+      "$type": "color",
+      "$value": "#F3F4F6"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#E5E7EB"
+    },
+    "25": {
+      "$type": "color",
+      "$value": "#FCFCFD"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#D2D6DB"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#9DA4AE"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#F9FAFB"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#6C737F"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#4D5761"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#384250"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#1F2A37"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#111927"
+    },
+    "950": {
+      "$type": "color",
+      "$value": "#0D121C"
+    }
+  },
+  "Grey": {
+    "07": {
+      "$type": "color",
+      "$value": "#575757",
+      "$description": "Secondary Text"
+    },
+    "08": {
+      "$type": "color",
+      "$value": "#1F1F1F",
+      "$description": "Primary Text"
+    }
+  },
+  "Light Theme": {
+    "Neutral 100": {
+      "$type": "color",
+      "$value": "#000000"
+    }
+  },
+  "NEW TD Default Light": {
+    "Meta": {
+      "Yellow - Fill": {
+        "$type": "color",
+        "$value": "#FFCC00"
+      }
+    }
+  },
+  "Shadows": {
+    "shadow-lg": {
+      "$type": "shadow",
+      "$value": {
+        "blur": "2px",
+        "color": "#0A0D120A",
+        "spread": "-1px",
+        "offsetX": "0px",
+        "offsetY": "2px"
+      },
+      "$description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+    },
+    "shadow-xs": {
+      "$type": "shadow",
+      "$value": {
+        "blur": "2px",
+        "color": "#0A0D120D",
+        "spread": "0px",
+        "offsetX": "0px",
+        "offsetY": "1px"
+      },
+      "$description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+    },
+    "shadow-xs-skeuomorphic": {
+      "$type": "shadow",
+      "$value": {
+        "blur": "2px",
+        "color": "#0A0D120D",
+        "spread": "0px",
+        "offsetX": "0px",
+        "offsetY": "1px"
+      },
+      "$description": "Used to create a subtle skeuomorphic effect in components such as buttons and tabs.\n\nThis can be removed or replaced with shadow-xs if you prefer a flat style."
+    }
+  },
+  "Text lg": {
+    "Medium": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "lineHeight": 1.56,
+        "letterSpacing": "0px"
+      }
+    },
+    "Medium underlined": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "lineHeight": 1.56,
+        "letterSpacing": "0px"
+      }
+    },
+    "Regular": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "lineHeight": 1.56,
+        "letterSpacing": "0px"
+      }
+    },
+    "Semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "lineHeight": 1.56,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "Text md": {
+    "Medium": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "16px",
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "lineHeight": 1.5,
+        "letterSpacing": "0px"
+      }
+    },
+    "Regular": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "16px",
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0px"
+      }
+    },
+    "Semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "16px",
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "Text sm": {
+    "Medium": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "lineHeight": 1.43,
+        "letterSpacing": "0px"
+      }
+    },
+    "Regular": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "lineHeight": 1.43,
+        "letterSpacing": "0px"
+      }
+    },
+    "Semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "14px",
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "lineHeight": 1.43,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "Text xl": {
+    "Regular": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "20px",
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0px"
+      }
+    },
+    "Regular underlined": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "20px",
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0px"
+      }
+    },
+    "Semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "20px",
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "Text xs": {
+    "Medium": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "12px",
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "lineHeight": 1.5,
+        "letterSpacing": "0px"
+      }
+    },
+    "Semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "12px",
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "White": {
+    "$type": "color",
+    "$value": "#FFFFFF"
+  },
+  "[DEPRECATED] Global - Light": {
+    "Primary": {
+      "$type": "color",
+      "$value": "#1A1A1A",
+      "$description": "Tokens / Neutral 90"
+    }
+  },
+  "blue": {
+    "50": {
+      "$type": "color",
+      "$value": "#EFF6FF"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#3B82F6"
+    }
+  },
+  "orange": {
+    "50": {
+      "$type": "color",
+      "$value": "#FFF7ED"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#F97316"
+    }
+  },
+  "slate": {
+    "400": {
+      "$type": "color",
+      "$value": "#94A3B8"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#0F172A"
+    }
+  },
+  "white": {
+    "$type": "color",
+    "$value": "#FFFFFF"
+  }
+}
