@@ -1,0 +1,40 @@
+{
+  "bg": {
+    "disabled": {
+      "$type": "color",
+      "$value": "{color.gray.2}"
+    },
+    "hover": {
+      "$type": "color",
+      "$value": "{color.gray.1}"
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "{color.base.1}"
+    }
+  },
+  "border": {
+    "critical": {
+      "$type": "color",
+      "$value": "{color.red.7}"
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "{color.gray.7}"
+    }
+  },
+  "fg": {
+    "blue": {
+      "$type": "color",
+      "$value": "{color.blue.8}"
+    },
+    "critical": {
+      "$type": "color",
+      "$value": "{color.red.7}"
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "{color.gray.13}"
+    }
+  }
+}
